@@ -8,12 +8,20 @@
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.navbar {
+  flex: justify-between;
+}
+
+.navlink {
+  flex: auto;
 }
 
 .footer {
@@ -108,6 +116,63 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.header h3 {
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  display: grid;
+}
+
+.header:hover,
+.header:focus,
+.header:active {
+  color: #0070f3;
+  border-color: #0070f3;
+  cursor: pointer;
+}
+
+.header {
+  flex-basis: 45%;
+  color: inherit;
+  float: right;
+  height: 50px;
+  grid-column: end;
+  margin: 0 10px 2rem;
+  text-decoration: none;
+  border: 2px #eaeaea;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.header li {
+  display: inline-block;
+}
+
+.nav {
+  text-decoration: none;
+  color: inherit;
+  float: left;
+  height: 50px;
+  grid-column: end;
+  margin: 0 10px 2rem;
+  text-decoration: none;
+  border: 2px #eaeaea;
+}
+
+style.nav {
+  cursor: pointer;
+}
+
+.logo {
+  flex-basis: 45%;
+  color: inherit;
+  float: left;
+  height: 2rm;
+  margin: 0 10px 1rem;
+  text-decoration: none;
+  border: 2px #eaeaea;
+  justify-self: start;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .logo {
