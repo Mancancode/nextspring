@@ -6,14 +6,14 @@ const ItemBlue = props => (
     );
 
 const NoMore = () => {
-    // return (
-    //     <div className="container mx-auto max-w-6xl mt-16 flex justify-around ">
-    //         <div>
-    //             <ItemBlue text= "No More" />
-    //                 <p>We do training and we don’t know what happens after</p>
-    //             </div>
+    return (
+        <div>
+            {/* <div>
+                <ItemBlue text= "No More" />
+                    <p>We do training and we don’t know what happens after</p>
+                </div> */}
             
-    //     </div>
+        </div>
     )
 }
 
